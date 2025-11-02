@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+env*/
+.conda/
+conda-env/
+pyenv/
+.python-version
+
+# Common environment variable files
+.env
+.env.*
+*.env
+*.env.*
+
+# Poetry / Pipenv caches (optional)
+.poetry/
+.pdm-python/
+pip-log.txt
+pip-wheel-metadata/
+
+mlruns/
+models/
+docs/
+metrics/
+__pycache__/
+*.py[cod]
+*$py.class
